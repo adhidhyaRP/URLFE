@@ -24,7 +24,7 @@ const Signup = () => {
     e.preventDefault();
    const {username,email,password}= form
    
-   Axios.post("https://url-jj42.onrender.com/auth/signup",{username,email,password}).then(response=>{
+   Axios.post("https://urlwithsignupverify.onrender.com/auth/signup",{username,email,password}).then(response=>{
   alert("we send a verification link to your gmail")
   
    }).catch(err=>{
