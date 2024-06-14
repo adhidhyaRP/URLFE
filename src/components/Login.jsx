@@ -26,7 +26,7 @@ const Login = () => {
     e.preventDefault();
     const {email,password}= form
    
-   Axios.post("https://url-10z0.onrender.com/auth/login",{email,password}).then(response=>{
+   Axios.post("https://urlwithsignupverify.onrender.com/auth/login",{email,password}).then(response=>{
    if(response.data.status){
     localStorage.setItem("authorised",true)
     navigate('/')
