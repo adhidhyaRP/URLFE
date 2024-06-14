@@ -11,7 +11,7 @@ const Home = () => {
   function handlesubmit(e){
     e.preventDefault()
     console.log({URL})
-    Axios.post("https://url-10z0.onrender.com/getshortURL",{URL})
+    Axios.post("https://urlwithsignupverify.onrender.com/getshortURL",{URL})
     .then(res=>setshortlink(res.data))
     .catch(err=>console.log(err))
     setURL("")
