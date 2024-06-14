@@ -22,7 +22,7 @@ const Resetpassword = () => {
       const handleSubmit = (e) => {
         e.preventDefault();
         const {password}= form
-        Axios.post(`https://url-jj42.onrender.com/auth/resetpassword/${id}/${token}`,{password})
+        Axios.post(`https://url-10z0.onrender.com/auth/resetpassword/${id}/${token}`,{password})
         console.log(password,id,token)
         navigate("/login")
       }
