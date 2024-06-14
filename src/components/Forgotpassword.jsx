@@ -10,7 +10,7 @@ const ForgotPassword = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    Axios.post("https://url-jj42.onrender.com/auth/forgotpassword",{email})
+    Axios.post("https://url-10z0.onrender.com/auth/forgotpassword",{email})
     .then(res=>console.log(res.data))
     
   };
